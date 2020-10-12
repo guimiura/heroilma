@@ -546,24 +546,74 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+#rendaMinima{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.rendaMinimaImg{
+  max-width: 360px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+  }
+  .rendaMinimaImg{
+    max-width: 768px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
+  .rendaMinimaImg{
+    max-width: 992px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
 }
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
+  .rendaMinimaImg{
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
 }
 @media (min-width: 1200px) {
   .container {
+    max-width: 1062px;
+  }
+  #rendaMinimaImg{
+    max-width: 1680px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
     max-width: 1140px;
+  }
+  #rendaMinimaImg{
+    max-width: 1680px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
   }
 }
 
